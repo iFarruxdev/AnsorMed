@@ -15,7 +15,7 @@
 .container{
   width: 100%;
   max-width: 1536px;
-  min-height: 100vh;
+  min-height: auto;
   margin: 0px auto;
 }
 
@@ -29,15 +29,21 @@ header {
   background-color: white;
 }
 
-header > nav > ul {
+header > .header-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header > .header-container > nav > ul {
   display: flex;
   align-items: center;
   list-style: none;
 }
-header > nav > ul > li {
+header > .header-container > nav > ul > li {
   margin-right: 32px;
 }
-header > nav > ul > li > a {
+header > .header-container > nav > ul > li > a {
   text-decoration: none;
   font-weight: 700;
   line-height: 21px;
@@ -45,7 +51,7 @@ header > nav > ul > li > a {
   text-transform: uppercase;
   color: #222;
 }
-header > nav > ul > li > a:hover{
+header > .header-container > nav > ul > li > a:hover{
   color: #DE2E54;
 }
 
@@ -93,29 +99,31 @@ main > .site-hero{
   height: 536px;
   background-color: #0EB4C1;
   padding: 0px 150px;
+}
+main > .site-hero > .hero-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-main > .site-hero > .hero-content {
+main > .site-hero > .hero-container > .hero-content {
   width: 500px;
   height: 310px;
   color: #fff;
 }
-main > .site-hero > .hero-content > .hero-content-parent{
+main > .site-hero > .hero-container > .hero-content > .hero-content-parent{
   margin-bottom: 36px;
 }
-main > .site-hero > .hero-content > .hero-content-parent > h1{
+main > .site-hero > .hero-container > .hero-content > .hero-content-parent > h1{
   font-family: var(--Condensed);
   margin-bottom: 15.5px;
   font-size: 36px;
   font-weight: 700;
   line-height: 43px;
 }
-main > .site-hero > .hero-content > .hero-content-parent > p{
+main > .site-hero > .hero-container > .hero-content > .hero-content-parent > p{
   font-size: 18px;
   line-height: 27px;
 }
-main > .site-hero > .hero-parsonal-men{
+main > .site-hero > .hero-container > .hero-parsonal-men{
   margin-top: 33px;
 }
