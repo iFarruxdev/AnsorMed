@@ -30,9 +30,11 @@ header {
 }
 
 header > .header-container{
+  max-width: 1310px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0px auto;
 }
 
 header > .header-container > nav > ul {
@@ -76,7 +78,7 @@ header > .header-container > nav > ul > li > a:hover{
 .actions_entry_link {
   text-decoration: none;
   border-radius: 8px;
-  font-size: 18px;
+  font-size: 16px;
   font-family: var(--Condensed);
   color: #fff;
   display: inline-block;
@@ -85,6 +87,7 @@ header > .header-container > nav > ul > li > a:hover{
   font-weight: 700;
   border: 2px solid #DE2E54;
   background-color: #DE2E54;
+  text-transform: uppercase;
 }
 .actions_entry_link:hover{
   border: 2px solid #ae2341;
@@ -98,12 +101,14 @@ main > .site-hero{
   width: 100%;
   height: 536px;
   background-color: #0EB4C1;
-  padding: 0px 150px;
+  padding: 0px 130px;
 }
 main > .site-hero > .hero-container {
+  max-width: 1300px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0px auto;
 }
 main > .site-hero > .hero-container > .hero-content {
   width: 500px;
@@ -126,4 +131,57 @@ main > .site-hero > .hero-container > .hero-content > .hero-content-parent > p{
 }
 main > .site-hero > .hero-container > .hero-parsonal-men{
   margin-top: 33px;
+}
+
+main > .site-lists {
+  width: 100%;
+  min-height: 1490px;
+  padding: 120px 280px;
+  text-align: center;
+}
+main > .site-lists > .lists-container {
+  max-width: 976px;
+  margin: 0px auto;
+}
+main > .site-lists > .lists-container > h2 {
+  font-size: 39px;
+  font-weight: 700;
+  letter-spacing: .6px;
+  line-height: 43px;
+  font-family: var(--Condensed);
+  margin-bottom: 65px;
+}
+main > .site-lists > .lists-container > .list {
+  width: 100%;
+  list-style: none;
+}
+main > .site-lists > .lists-container > .list > .item {
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  margin-bottom: 80px;
+}
+main > .site-lists > .lists-container > .list > .item:last-child {
+  margin-bottom: 60px;
+}
+main > .site-lists > .lists-container > .list > .item > img {
+  margin-right: 64px;
+}
+main > .site-lists > .lists-container > .list > .item > .item-content{
+  margin-top: 25px;
+  height: 170px;
+  text-align: left;
+}
+main > .site-lists > .lists-container > .list > .item > .item-content > h3 {
+  font-size: 25px;
+  line-height: 29px;
+  color: #222;
+  font-family: var(--Condensed);
+  margin-bottom: 24px;
+  font-weight: 700;
+}
+main > .site-lists > .lists-container > .list > .item > .item-content > p{
+  font-size: 18px;
+  line-height: 1.5;
+  color: #444;
 }
