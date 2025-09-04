@@ -37,7 +37,6 @@ header > .header-container{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0px auto;
 }
 
 nav > ul {
@@ -114,7 +113,6 @@ main > .site-hero > .hero-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0px auto;
 }
 main > .site-hero > .hero-container > .hero-content {
   width: 500px;
@@ -147,7 +145,6 @@ main > .site-lists {
 }
 main > .site-lists > .lists-container {
   max-width: 976px;
-  margin: 0px auto;
 }
 main > .site-lists > .lists-container > h2 {
   font-size: 39px;
@@ -206,7 +203,6 @@ main > .site-contact > .container-contact{
   justify-content: center;
   flex-direction: column;
   text-align: left;
-  margin: 0px auto;
 }
 main > .site-contact > .container-contact > h2 {
   font-size: 36px;
